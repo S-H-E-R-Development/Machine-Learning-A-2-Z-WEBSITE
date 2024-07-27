@@ -1,0 +1,283 @@
+/* src/components/Navbar.css */
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249, 249, 253);
+    color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    /* height: 3.5rem; */
+}
+
+
+nav ul {
+    width: 100%;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: purple;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.logo {
+    height: 3.3rem;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+nav li:not(:first-child) a:hover {
+    border-bottom: 4px solid rgb(234, 142, 179);
+}
+
+nav li:first-child {
+    margin-right: auto;
+
+    font-size: larger;
+}
+
+nav li:last-child {
+
+
+
+    fill: #ffffff;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.77);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+
+}
+
+.sidebar a {
+    width: 100%;
+    color: black;
+}
+
+.menu-button {
+    display: none;
+    margin-right: -3rem;
+}
+
+.menu-button .menu {
+    margin: 0px 1.5rem;
+}
+
+.menu-button .menu svg {
+    padding: 5px;
+    border: 1px solid rgb(140, 139, 160);
+    border-radius: 5px;
+
+}
+
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: rgb(249, 249, 253);
+    padding: 70px 0;
+}
+
+.footer-col {
+
+    width: 21%;
+    padding: 0 20px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #121014;
+    text-transform: capitalize;
+    margin-left: 1rem;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 90px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+.footer-col ul li {
+    padding-left: 1rem;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000000;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.links {
+    padding-left: 2rem;
+}
+
+
+.footer-col ul li :hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(3, 3, 10);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links :hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.copyright {
+    background-color: #030612;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: small;
+    font-weight: 400;
+
+}
+
+.social-link-div {
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+.social-link-div a {
+    color: white;
+}
+
+.ServiceCards {
+    flex: wrap;
+    margin: 1.5%;
+    padding: 5px;
+    color: #02010a;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+
+
+}
+
+.partner {
+    margin-left: 1rem;
+    margin-top: -1.5rem;
+
+}
+
+
+/*responsive*/
+
+@media(max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+
+    }
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        font-size: 8px;
+    }
+}
+
+@media(max-width: 500) {
+    .sidebar {
+        width: 100%;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+
+    nav li:first-child {
+        margin-right: auto;
+        margin-left: -1.6rem;
+        padding-top: 5px;
+        font-size: larger;
+    }
+
+}

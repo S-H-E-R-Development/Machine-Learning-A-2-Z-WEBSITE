@@ -1,0 +1,54 @@
+/* BottomNavBar.css */
+
+/* Base styles for footer */
+.footer {
+  margin: 2rem;
+  padding: 2rem 1rem;
+  /* Reduced padding for smaller screens */
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(245, 245, 245, 0.805);
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* Stack elements vertically on small screens */
+  align-items: center;
+  /* Center items horizontally */
+}
+
+.footer>div {
+  margin-bottom: 1rem;
+  /* Space between sections */
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+  .footer {
+    padding: 5rem 3rem;
+    /* Increase padding for larger screens */
+  }
+
+  .footer {
+    flex-direction: row;
+    /* Align items horizontally */
+    justify-content: space-between;
+    /* Space out sections */
+  }
+
+  .footer>div {
+    margin-bottom: 0;
+    /* Remove bottom margin on larger screens */
+    flex: 1;
+    /* Make each section take equal space */
+    padding: 0 1rem;
+    /* Add horizontal padding for spacing */
+  }
+}
+
+/* Responsive design for extra-large screens */
+@media (min-width: 1200px) {
+  .footer {
+    padding: 10rem 5rem;
+    /* Restore original padding for very large screens */
+  }
+}

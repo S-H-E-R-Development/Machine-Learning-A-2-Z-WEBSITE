@@ -1,0 +1,35 @@
+/* Header.css */
+
+.header {
+    background: linear-gradient(to right, #4a90e2, #50e3c2);
+    /* Gradient background for a modern look */
+    color: white;
+    /* Text color */
+    padding: 20px;
+    /* Padding around the content */
+    text-align: center;
+    /* Center-align text */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    margin-top: 100px;
+    margin-bottom: 20px;
+    /* Space below the header */
+}
+
+.header-title {
+    font-size: 2rem;
+    /* Large font size for the title */
+    margin-bottom: 10px;
+    /* Space below the title */
+}
+
+.header-description {
+    font-size: 1.2rem;
+    /* Slightly larger font size for better readability */
+    line-height: 1.5;
+    /* Line height for better readability */
+    margin: 0;
+    /* Remove default margin */
+}

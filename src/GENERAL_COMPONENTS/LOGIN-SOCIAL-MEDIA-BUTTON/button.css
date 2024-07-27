@@ -1,0 +1,135 @@
+.login{
+  border: 0.5px solid rgb(19, 19, 20);
+  border-radius: 5px;
+  padding: 0.8rem 1.8rem;
+  margin: 1rem;
+  background-color: rgb(238, 191, 191);
+}
+.social{
+  border: 0.5px solid rgb(19, 19, 20);
+  border-radius: 100%;
+  padding: 0.8rem 1.2rem;
+  margin: 1rem;
+  background-color: rgb(238, 191, 191);
+}
+.userButton{
+  border: 0.5px solid rgb(19, 19, 20);
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  margin: 0.5rem;
+  background-color: rgb(195, 192, 131);
+}
+.socialLink{
+  border: 0.5px solid rgb(19, 19, 20);
+  border-radius: 100%;
+  padding: 0.8rem 1.2rem;
+  margin: 1rem;
+  background-color: rgb(116, 192, 160);
+}
+.searchBox input{
+  width: 14rem;
+  margin-left: 0.3rem;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #D0BFFF;
+  border: none;
+}
+.Heading1{
+  text-align: center;
+  font-size: 4vh;
+  font-weight: 350;
+  color: #7857DD;
+}
+.searchButton{
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 0.8vw 1.8vw;
+  border-radius: 10px;
+  background-color: #7950F2;
+  height: 6vh;
+}
+.Heading2{
+  color: #2C90E7;
+}
+.orderButton{
+  background-color: #EBFBEE;
+  color: #099268;
+  width: 18rem;
+  border-radius: 10px;
+  border: 2px solid #099268;
+  font-size: 1.3vw;
+  font-family: monospace;
+  font-weight: 600;
+  padding: 0.8vw 1.8vw;
+}
+.greeting{
+  background-color: #B2F2BB;
+  border: 2px solid #2F9BA2;
+  font-weight: 600;
+  width: 50vw;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1vw 1.8vw;
+  color: #2F9BA2;
+  margin: 0 24vw;
+}
+.userDetails{
+  border: 1px solidrgb(40, 42, 43)2;
+  border-radius: 10px;
+  border: 2px solid rgb(90, 90, 90);
+  padding: 1vw 1.8vw;
+  font-family: monospace;
+  width: 18vw;
+  display: block;
+  margin-top: 0px;
+}
+.Requirments{
+  border: 2px solidrgb(40, 42, 43);
+  background-color: #69DB7C;
+  border-radius: 10px;
+  padding: 1.2vh 2vw;
+  font-family: monospace;
+}
+.rectrianglee{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+    background-color: rgb(225, 214, 238);
+    transform: rotate(45deg);
+    text-align: center;
+    line-height: 10vw;
+    margin:2rem;
+}
+.view{
+  background-color: #40C057;
+  color: white;
+  font-weight: 600;
+  padding: 0.8vw 1vw;
+  border-radius: 10px;
+  border: none;
+  margin-top: 2rem;
+}
+.DashButton{
+  background-color: #228BE6;
+  color: white;
+  font-weight: 600;
+  padding: 0.9vw 1vw;
+  border-radius: 10px;
+  border: none;
+}
+.applyButton{
+  background-color: #a4abb2;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  padding: 0.6rem 1.6rem;
+}
+.note{
+  color: red;
+  font-weight: 300;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: monospace;
+  margin-top: 2.5vw;
+}
