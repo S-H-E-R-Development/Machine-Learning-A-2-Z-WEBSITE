@@ -1,14 +1,15 @@
 import React from 'react';
-import Header from './Header';
-import Section from './Section';
-import Module from './Module';
-import Project from './Project';
-import Footer from './Footer';
+import { HeaderMLA2Z } from '../Header';
+import Section from '../Section';
+import Module from '../GENERAL_COMPONENTS/MODULES/Module';
+import './MLA2ZCourseOutLine.css'
+import Footer from '../Footer';
+import Project from '../GENERAL_COMPONENTS/PROJECTS/Project';
 
-const Home = () => {
+const MLA2ZCourseOutLine = () => {
     return (
         <div>
-            <Header />
+            <HeaderMLA2Z />
             <Section
                 title="For Whom This Course Is Designed"
                 content="This course is tailored for beginners who have a basic understanding of programming and wish to delve into machine learning and data science. It is also suitable for intermediate learners aiming to strengthen their skills and explore advanced techniques."
@@ -19,7 +20,7 @@ const Home = () => {
                     <ul>
                         <li>Provide a solid foundation in machine learning concepts and algorithms.</li>
                         <li>Equip learners with practical skills through hands-on projects and examples.</li>
-                        <li>Prepare learners for real-world Homelications and job readiness in data science and AI fields.</li>
+                        <li>Prepare learners for real-world MLA2ZCourseOutLinelications and job readiness in data science and AI fields.</li>
                     </ul>
                 }
             />
@@ -27,7 +28,7 @@ const Home = () => {
                 <h2>Course Modules</h2>
                 <Module
                     title="Module 0: History and Future of Machine Learning"
-                    repoLink="#" // Replace with actual repository link if available
+                    repoLink="/MLA2ZCourse/Modules/Module0/" // Replace with actual repository link if available
                     topics={[
                         {
                             name: "History of Machine Learning",
@@ -42,7 +43,7 @@ const Home = () => {
                             name: "Future of Machine Learning",
                             stages: [
                                 "Emerging trends and technologies in machine learning.",
-                                "Predictions for future advancements in ML algorithms and Homelications.",
+                                "Predictions for future advancements in ML algorithms and MLA2ZCourseOutLinelications.",
                                 "Potential impacts on industries and daily life.",
                                 "Ethical considerations and challenges ahead."
                             ]
@@ -51,7 +52,7 @@ const Home = () => {
                 />
                 <Module
                     title="Module 1: Introduction to Machine Learning"
-                    repoLink="https://github.com/your-repo/module1"
+                    repoLink="/MLA2ZCourse/Modules/Module1/"
                     topics={[
                         {
                             name: "What is Machine Learning?", stages: [
@@ -64,8 +65,64 @@ const Home = () => {
                     ]}
                 />
                 <Module
-                    title="Module 2: Data Preprocessing"
-                    repoLink="https://github.com/your-repo/module2"
+                    title="Module 2: NumPy"
+                    repoLink="/MLA2ZCourse/Modules/Module2/"
+                    topics={[
+                        {
+                            name: "Introduction to NumPy", stages: [
+                                "Understanding the basics of NumPy",
+                                "Creating and manipulating arrays",
+                                "Performing mathematical operations with NumPy",
+                                "Advanced NumPy techniques and broadcasting"
+                            ]
+                        }
+                    ]}
+                />
+                <Module
+                    title="Module 3: pandas"
+                    repoLink="/MLA2ZCourse/Modules/Module3/"
+                    topics={[
+                        {
+                            name: "Introduction to pandas", stages: [
+                                "Basics of pandas and its use in data manipulation",
+                                "DataFrames and Series",
+                                "Data cleaning and preprocessing with pandas",
+                                "Advanced data operations"
+                            ]
+                        }
+                    ]}
+                />
+                <Module
+                    title="Module 4: Matplotlib"
+                    repoLink="/MLA2ZCourse/Modules/Module4/"
+                    topics={[
+                        {
+                            name: "Introduction to Matplotlib", stages: [
+                                "Basics of data visualization",
+                                "Creating simple plots",
+                                "Customizing plots",
+                                "Creating complex visualizations"
+                            ]
+                        }
+                    ]}
+                />
+                <Module
+                    title="Module 5: Scikit-learn"
+                    repoLink="/MLA2ZCourse/Modules/Module5/"
+                    topics={[
+                        {
+                            name: "Introduction to Scikit-learn", stages: [
+                                "Overview of Scikit-learn",
+                                "Implementing basic models",
+                                "Model evaluation and selection",
+                                "Advanced techniques"
+                            ]
+                        }
+                    ]}
+                />
+                <Module
+                    title="Module 6: Data Preprocessing"
+                    repoLink="/MLA2ZCourse/Modules/Module6/"
                     topics={[
                         {
                             name: "Data Cleaning and Preparation", stages: [
@@ -86,8 +143,8 @@ const Home = () => {
                     ]}
                 />
                 <Module
-                    title="Module 3: Exploratory Data Analysis (EDA)"
-                    repoLink="https://github.com/your-repo/module3"
+                    title="Module 7: Exploratory Data Analysis (EDA)"
+                    repoLink="/MLA2ZCourse/Modules/Module7/"
                     topics={[
                         {
                             name: "Understanding Data through Visualization", stages: [
@@ -100,8 +157,8 @@ const Home = () => {
                     ]}
                 />
                 <Module
-                    title="Module 4: Mathematics and Statistics for Data Science"
-                    repoLink="https://github.com/your-repo/module4"
+                    title="Module 8: Mathematics and Statistics for Data Science"
+                    repoLink="/MLA2ZCourse/Modules/Module8/"
                     topics={[
                         {
                             name: "Probability and Statistics", stages: [
@@ -130,8 +187,8 @@ const Home = () => {
                     ]}
                 />
                 <Module
-                    title="Module 5: Supervised Learning"
-                    repoLink="https://github.com/your-repo/module5"
+                    title="Module 9: Supervised Learning"
+                    repoLink="/MLA2ZCourse/Modules/Module9/"
                     topics={[
                         {
                             name: "Classification Algorithms", stages: [
@@ -152,8 +209,8 @@ const Home = () => {
                     ]}
                 />
                 <Module
-                    title="Module 6: Unsupervised Learning"
-                    repoLink="https://github.com/your-repo/module6"
+                    title="Module 10: Unsupervised Learning"
+                    repoLink="/MLA2ZCourse/Modules/Module10/"
                     topics={[
                         {
                             name: "Clustering Algorithms", stages: [
@@ -174,8 +231,8 @@ const Home = () => {
                     ]}
                 />
                 <Module
-                    title="Module 7: Neural Networks and Deep Learning"
-                    repoLink="https://github.com/your-repo/module7"
+                    title="Module 11: Neural Networks and Deep Learning"
+                    repoLink="/MLA2ZCourse/Modules/Module11/"
                     topics={[
                         {
                             name: "Introduction to Neural Networks", stages: [
@@ -187,7 +244,7 @@ const Home = () => {
                         },
                         {
                             name: "Convolutional Neural Networks (CNN)", stages: [
-                                "Introduction to CNNs and their Homelications",
+                                "Introduction to CNNs and their MLA2ZCourseOutLinelications",
                                 "Building a simple CNN for image classification",
                                 "Implementing a CNN for a more complex dataset",
                                 "Transfer learning with pre-trained models"
@@ -204,8 +261,8 @@ const Home = () => {
                     ]}
                 />
                 <Module
-                    title="Module 8: Advanced Topics"
-                    repoLink="https://github.com/your-repo/module8"
+                    title="Module 12: Advanced Topics"
+                    repoLink="/MLA2ZCourse/Modules/Module12/"
                     topics={[
                         {
                             name: "Natural Language Processing (NLP)", stages: [
@@ -226,8 +283,8 @@ const Home = () => {
                     ]}
                 />
                 <Module
-                    title="Module 9: Time Series Analysis"
-                    repoLink="https://github.com/your-repo/module9"
+                    title="Module 13: Time Series Analysis"
+                    repoLink="/MLA2ZCourse/Modules/Module13/"
                     topics={[
                         {
                             name: "Introduction to Time Series Analysis", stages: [
@@ -240,8 +297,8 @@ const Home = () => {
                     ]}
                 />
                 <Module
-                    title="Module 10: Model Deployment and Monitoring"
-                    repoLink="https://github.com/your-repo/module10"
+                    title="Module 14: Model Deployment and Monitoring"
+                    repoLink="/MLA2ZCourse/Modules/Module14/"
                     topics={[
                         {
                             name: "Deploying Machine Learning Models", stages: [
@@ -261,65 +318,10 @@ const Home = () => {
                         }
                     ]}
                 />
-                <Module
-                    title="Module 11: NumPy"
-                    repoLink="https://github.com/your-repo/module11"
-                    topics={[
-                        {
-                            name: "Introduction to NumPy", stages: [
-                                "Understanding the basics of NumPy",
-                                "Creating and manipulating arrays",
-                                "Performing mathematical operations with NumPy",
-                                "Advanced NumPy techniques and broadcasting"
-                            ]
-                        }
-                    ]}
-                />
-                <Module
-                    title="Module 12: pandas"
-                    repoLink="https://github.com/your-repo/module12"
-                    topics={[
-                        {
-                            name: "Introduction to pandas", stages: [
-                                "Basics of pandas and its use in data manipulation",
-                                "DataFrames and Series",
-                                "Data cleaning and preprocessing with pandas",
-                                "Advanced data operations"
-                            ]
-                        }
-                    ]}
-                />
-                <Module
-                    title="Module 13: Matplotlib"
-                    repoLink="https://github.com/your-repo/module13"
-                    topics={[
-                        {
-                            name: "Introduction to Matplotlib", stages: [
-                                "Basics of data visualization",
-                                "Creating simple plots",
-                                "Customizing plots",
-                                "Creating complex visualizations"
-                            ]
-                        }
-                    ]}
-                />
-                <Module
-                    title="Module 14: Scikit-learn"
-                    repoLink="https://github.com/your-repo/module14"
-                    topics={[
-                        {
-                            name: "Introduction to Scikit-learn", stages: [
-                                "Overview of Scikit-learn",
-                                "Implementing basic models",
-                                "Model evaluation and selection",
-                                "Advanced techniques"
-                            ]
-                        }
-                    ]}
-                />
+
                 <Module
                     title="Module 15: Big Data Technologies"
-                    repoLink="https://github.com/your-repo/module15"
+                    repoLink="/MLA2ZCourse/Modules/Module15/"
                     topics={[
                         {
                             name: "Introduction to Big Data", stages: [
@@ -333,7 +335,7 @@ const Home = () => {
                 />
                 <Module
                     title="Module 16: Model Fine-Tuning and Integration"
-                    repoLink="https://github.com/your-repo/module16"
+                    repoLink="/MLA2ZCourse/Modules/Module16/"
                     topics={[
                         {
                             name: "Fine-Tuning Models", stages: [
@@ -345,9 +347,9 @@ const Home = () => {
                         },
                         {
                             name: "Model Integration", stages: [
-                                "Integrating models into Homelications",
+                                "Integrating models into MLA2ZCourseOutLinelications",
                                 "Creating APIs for model deployment",
-                                "Embedding models into web/mobile Homelications",
+                                "Embedding models into web/mobile MLA2ZCourseOutLinelications",
                                 "Testing and validating integrated models"
                             ]
                         }
@@ -355,7 +357,7 @@ const Home = () => {
                 />
                 <Module
                     title="Module 17: API Integration"
-                    repoLink="https://github.com/your-repo/module17"
+                    repoLink="/MLA2ZCourse/Modules/Module17/"
                     topics={[
                         {
                             name: "Calling APIs from React", stages: [
@@ -396,42 +398,54 @@ const Home = () => {
                 <h2>Projects</h2>
                 <Project
                     title="Project 1: AI Chatbot Implementation from Scratch"
-                    repoLink="https://github.com/your-repo/project1"
-                    stages={[
-                        "Introduction to chatbots",
-                        "Building a simple rule-based chatbot",
-                        "Implementing an NLP-based chatbot",
-                        "Developing an advanced chatbot"
+                    repoLink="/MLA2ZCourse/Projects/Project1/"
+                    topics={[
+                        {
+                            name: "AI Chatbot Implementation from Scratch",
+                            stages: ["Introduction to chatbots",
+                                "Building a simple rule-based chatbot",
+                                "Implementing an NLP-based chatbot",
+                                "Developing an advanced chatbot"]
+                        }
                     ]}
                 />
                 <Project
                     title="Project 2: ESP32 Temperature Analysis"
-                    repoLink="https://github.com/your-repo/project2"
-                    stages={[
-                        "Introduction to ESP32",
-                        "Setting up ESP32 and reading temperature data",
-                        "Sending data to a server",
-                        "Real-time temperature monitoring system"
+                    repoLink="/MLA2ZCourse/Projects/Project2/"
+                    topics={[
+                        {
+                            name: "ESP32 Temperature Analysis",
+                            stages: ["Introduction to ESP32",
+                                "Setting up ESP32 and reading temperature data",
+                                "Sending data to a server",
+                                "Real-time temperature monitoring system"]
+                        }
                     ]}
                 />
                 <Project
                     title="Project 3: Document Matching"
-                    repoLink="https://github.com/your-repo/project3"
-                    stages={[
-                        "Introduction to document matching techniques",
-                        "Implementing text similarity algorithms",
-                        "Building a document matching system",
-                        "Evaluating and improving the matching system"
+                    repoLink="/MLA2ZCourse/Projects/Project3/"
+                    topics={[
+                        {
+                            name: "Document Matching",
+                            stages: ["Introduction to document matching techniques",
+                                "Implementing text similarity algorithms",
+                                "Building a document matching system",
+                                "Evaluating and improving the matching system"]
+                        }
                     ]}
                 />
                 <Project
                     title="Project 4: Query to Document using Azure OpenAI"
-                    repoLink="https://github.com/your-repo/project4"
-                    stages={[
-                        "Introduction to Azure OpenAI",
-                        "Setting up an OpenAI environment",
-                        "Creating a query-to-document model",
-                        "Integrating the model with a web interface"
+                    repoLink="/MLA2ZCourse/Projects/Project4/"
+                    topics={[
+                        {
+                            name: "Query to Document using Azure OpenAI",
+                            stages: ["Introduction to Azure OpenAI",
+                                "Setting up an OpenAI environment",
+                                "Creating a query-to-document model",
+                                "Integrating the model with a web interface"]
+                        }
                     ]}
                 />
             </div>
@@ -440,4 +454,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default MLA2ZCourseOutLine;

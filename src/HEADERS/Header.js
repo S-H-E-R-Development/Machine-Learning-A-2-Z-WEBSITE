@@ -5,6 +5,7 @@ import './Header.css'; // Ensure you have created this CSS file
 const navBarButtonData = [
     { "linkTo": "/", "label": "Home" },
     { "linkTo": "/courses", "label": "Courses" },
+    { "linkTo": "/ESP32", "label": "ESP32" },
     { "linkTo": "/coaches", "label": "Coaches" },
     { "linkTo": "/community", "label": "Community" },
     { "linkTo": "/auth", "label": "Register/login" },
@@ -48,7 +49,7 @@ const Navbar = () => {
                     <Link className='menu' to=""><svg color='white' xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" /></svg></Link>
                 </li>
             </ul>
-        
+
         </nav>
     );
 };
