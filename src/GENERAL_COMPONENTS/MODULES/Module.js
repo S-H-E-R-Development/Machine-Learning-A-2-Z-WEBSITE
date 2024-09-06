@@ -18,7 +18,7 @@ const Module = ({ title, repoLink, topics }) => {
                             <td>
                                 <label htmlFor={`module-${title}-topic-${index}`} className="topic-label">
                                     <input type="checkbox" id={`module-${title}-topic-${index}`} />
-                                    <a href={`${repoLink + topic.name + '/'}`} className="topic-link">
+                                    <a href={`${repoLink + 'Topic'}${index + 1}${'/' + 'Stage0'}`} className="topic-link">
                                         <b>Topic {index + 1}: {topic.name}</b>
                                     </a>
                                 </label>
@@ -29,7 +29,7 @@ const Module = ({ title, repoLink, topics }) => {
                                         <li key={stageIndex} className="stage-item">
                                             <label htmlFor={`module-${title}-topic-${index}-stage-${stageIndex}`} className="stage-label">
                                                 <input type="checkbox" id={`module-${title}-topic-${index}-stage-${stageIndex}`} />
-                                                <a href={`${repoLink + topic.name + '/' + stage + '/'}`} className="stage-link">
+                                                <a href={`${repoLink + 'Topic'}${index + 1}${'/' + 'Stage' + stageIndex + '/'}`} className="stage-link">
                                                     {`Stage ${stageIndex}: ${stage}`}
                                                 </a>
                                             </label>
