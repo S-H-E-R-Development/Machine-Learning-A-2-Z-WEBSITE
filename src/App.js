@@ -18,6 +18,7 @@ import MLA2ZModule_0_Topic_1_Stage_0_Content from './MLA2ZCOURSE/MODULES/MODULE0
 import MLA2ZModule1 from './MLA2ZCOURSE/MODULES/MODULE1/Module1';
 import MLA2ZModule_1_Topic_1_Stage_0_Content from './MLA2ZCOURSE/MODULES/MODULE1/TOPIC_1/Stage_0';
 import MLA2ZModule_1_Topic_1_Stage_1_Content from './MLA2ZCOURSE/MODULES/MODULE1/TOPIC_1/Stage_1';
+import MLA2ZModule_1_Topic_1_Stage_2_Content from './MLA2ZCOURSE/MODULES/MODULE1/TOPIC_1/Stage_2';
 
 const HomeComponents = () => <MLA2ZCourseOutLine />;
 const CoursesComponents = () => <MLA2ZCourseOutLine />;
@@ -48,6 +49,7 @@ const MLA2Z_MODULE1 = () => <MLA2ZModule1 />
 // topic 1
 const MLA2ZModule_1_Topic_1_Stage_0 = () => <MLA2ZModule_1_Topic_1_Stage_0_Content />
 const MLA2ZModule_1_Topic_1_Stage_1 = () => <MLA2ZModule_1_Topic_1_Stage_1_Content />
+const MLA2ZModule_1_Topic_1_Stage_2 = () => <MLA2ZModule_1_Topic_1_Stage_2_Content />
 
 function App() {
   return (
@@ -85,6 +87,7 @@ function App() {
         {/* topic 1 */}
         <Route path="/MLA2ZCourse/Modules/Module1/Topic1/Stage0" exact element={MLA2ZModule_1_Topic_1_Stage_0()} />
         <Route path="/MLA2ZCourse/Modules/Module1/Topic1/Stage1" exact element={MLA2ZModule_1_Topic_1_Stage_1()} />
+        <Route path="/MLA2ZCourse/Modules/Module1/Topic1/Stage2" exact element={MLA2ZModule_1_Topic_1_Stage_2()} />
       </Routes>
       <BottomNavBar />
 
