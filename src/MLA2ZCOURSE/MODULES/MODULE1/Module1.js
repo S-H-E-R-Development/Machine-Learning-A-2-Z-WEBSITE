@@ -16,7 +16,7 @@ const MLA2ZModule1 = () => {
                             "Introduction to ML concepts",
                             "Simple linear regression",
                             "Multivariate linear regression",
-                            "Implementing linear regression from scratch"
+                            "Industrial Applications of Linear Regression"
                         ]
                     }
                 ]}
