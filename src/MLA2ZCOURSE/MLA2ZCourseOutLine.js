@@ -36,7 +36,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to the evolution of machine learning.",
                                 "Key milestones in the development of machine learning algorithms.",
                                 "Significant breakthroughs and their impact on the field.",
-                                "The current state and future trends in machine learning technology."
+                                "The current state and future trends in machine learning technology.",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -45,7 +46,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Emerging trends and technologies in machine learning.",
                                 "Predictions for future advancements in ML algorithms and MLA2ZCourseOutLinelications.",
                                 "Potential impacts on industries and daily life.",
-                                "Ethical considerations and challenges ahead."
+                                "Ethical considerations and challenges ahead.",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -59,7 +61,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to ML concepts",
                                 "Simple linear regression",
                                 "Multivariate linear regression",
-                                "Industrial Applications of Linear Regression"
+                                "Industrial Applications of Linear Regression",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -73,7 +76,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Understanding the basics of NumPy",
                                 "Creating and manipulating arrays",
                                 "Performing mathematical operations with NumPy",
-                                "Advanced NumPy techniques and broadcasting"
+                                "Advanced NumPy techniques and broadcasting",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -87,7 +91,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Basics of pandas and its use in data manipulation",
                                 "DataFrames and Series",
                                 "Data cleaning and preprocessing with pandas",
-                                "Advanced data operations"
+                                "Advanced data operations",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -101,7 +106,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Basics of data visualization",
                                 "Creating simple plots",
                                 "Customizing plots",
-                                "Creating complex visualizations"
+                                "Creating complex visualizations",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -115,7 +121,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Overview of Scikit-learn",
                                 "Implementing basic models",
                                 "Model evaluation and selection",
-                                "Advanced techniques"
+                                "Advanced techniques",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -129,7 +136,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to data cleaning",
                                 "Handling missing values",
                                 "Data normalization and standardization",
-                                "Data preprocessing pipeline"
+                                "Data preprocessing pipeline",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -137,7 +145,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to feature engineering",
                                 "Basic techniques for feature engineering",
                                 "Feature selection methods",
-                                "Advanced feature engineering"
+                                "Advanced feature engineering",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -151,7 +160,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to EDA",
                                 "Simple data visualization with Matplotlib/Seaborn",
                                 "Advanced data visualization techniques",
-                                "EDA on a complex dataset"
+                                "EDA on a complex dataset",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -165,7 +175,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to basic probability concepts",
                                 "Descriptive statistics and probability distributions",
                                 "Hypothesis testing and p-values",
-                                "Bayesian statistics and A/B testing"
+                                "Bayesian statistics and A/B testing",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -173,7 +184,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to linear algebra concepts",
                                 "Vectors and matrices operations",
                                 "Eigenvalues and eigenvectors",
-                                "Singular Value Decomposition (SVD)"
+                                "Singular Value Decomposition (SVD)",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -181,7 +193,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to calculus and its importance",
                                 "Derivatives and integrals",
                                 "Partial derivatives and gradient",
-                                "Optimization techniques (Gradient Descent)"
+                                "Optimization techniques (Gradient Descent)",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -195,7 +208,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to classification problems",
                                 "Implementing K-Nearest Neighbors (KNN)",
                                 "Implementing Decision Trees and Random Forests",
-                                "Hyperparameter tuning and model evaluation"
+                                "Hyperparameter tuning and model evaluation",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -203,7 +217,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to regression problems",
                                 "Simple linear regression",
                                 "Polynomial regression and regularization techniques",
-                                "Implementing Support Vector Regression (SVR)"
+                                "Implementing Support Vector Regression (SVR)",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -217,7 +232,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to clustering problems",
                                 "K-Means clustering",
                                 "Implementing K-Medians clustering",
-                                "Advanced clustering algorithms"
+                                "Advanced clustering algorithms",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -225,7 +241,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to dimensionality reduction techniques",
                                 "Principal Component Analysis (PCA)",
                                 "t-SNE for visualization of high-dimensional data",
-                                "Implementing LDA (Linear Discriminant Analysis)"
+                                "Implementing LDA (Linear Discriminant Analysis)",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -239,7 +256,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Basic concepts of neural networks",
                                 "Implementing a simple perceptron",
                                 "Building a multi-layer perceptron (MLP) with TensorFlow/Keras",
-                                "Fine-tuning a neural network for a complex classification problem"
+                                "Fine-tuning a neural network for a complex classification problem",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -247,7 +265,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to CNNs and their MLA2ZCourseOutLinelications",
                                 "Building a simple CNN for image classification",
                                 "Implementing a CNN for a more complex dataset",
-                                "Transfer learning with pre-trained models"
+                                "Transfer learning with pre-trained models",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -255,7 +274,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to RNNs and their use cases",
                                 "Implementing a simple RNN for sequence prediction",
                                 "Using LSTM for time series forecasting",
-                                "Building complex sequence models for NLP tasks"
+                                "Building complex sequence models for NLP tasks",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -269,7 +289,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to NLP",
                                 "Text preprocessing and basic sentiment analysis",
                                 "Implementing a simple RNN for text classification",
-                                "Building a chatbot with Seq2Seq models"
+                                "Building a chatbot with Seq2Seq models",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -277,7 +298,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to reinforcement learning concepts",
                                 "Implementing a simple Q-learning algorithm",
                                 "Policy gradients and deep Q-networks (DQN)",
-                                "Solving a complex environment (e.g., OpenAI Gym)"
+                                "Solving a complex environment (e.g., OpenAI Gym)",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -291,7 +313,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Basic concepts of time series data",
                                 "Simple moving averages",
                                 "ARIMA models",
-                                "LSTM networks for time series forecasting"
+                                "LSTM networks for time series forecasting",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -305,7 +328,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to model deployment",
                                 "Saving and loading models with joblib/pickle",
                                 "Creating a simple API with Flask",
-                                "Deploying a model on a cloud platform"
+                                "Deploying a model on a cloud platform",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -313,7 +337,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Importance of model monitoring",
                                 "Tracking model performance over time",
                                 "Handling model drift",
-                                "Implementing automated model retraining"
+                                "Implementing automated model retraining",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -328,7 +353,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Overview of big data technologies",
                                 "Introduction to Apache Hadoop",
                                 "Using Apache Spark for big data processing",
-                                "Integrating big data technologies with machine learning"
+                                "Integrating big data technologies with machine learning",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -342,7 +368,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Techniques for fine-tuning models",
                                 "Hyperparameter tuning",
                                 "Using GridSearchCV and RandomizedSearchCV",
-                                "Fine-tuning complex models"
+                                "Fine-tuning complex models",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -350,7 +377,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Integrating models into MLA2ZCourseOutLinelications",
                                 "Creating APIs for model deployment",
                                 "Embedding models into web/mobile MLA2ZCourseOutLinelications",
-                                "Testing and validating integrated models"
+                                "Testing and validating integrated models",
+                                "Interview Questions"
                             ]
                         }
                     ]}
@@ -364,7 +392,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to API integration",
                                 "Fetching data from REST APIs",
                                 "Handling API responses",
-                                "Implementing API calls in React components"
+                                "Implementing API calls in React components",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -372,7 +401,8 @@ const MLA2ZCourseOutLine = () => {
                                 "Creating API endpoints with Django REST framework",
                                 "Consuming external APIs",
                                 "Integrating APIs with Django models",
-                                "Testing and debugging API endpoints"
+                                "Testing and debugging API endpoints",
+                                "Interview Questions"
                             ]
                         },
                         {
@@ -380,15 +410,18 @@ const MLA2ZCourseOutLine = () => {
                                 "Introduction to HTTP requests in Flutter",
                                 "Fetching data from APIs",
                                 "Parsing API responses",
-                                "Displaying API data in Flutter widgets"
+                                "Displaying API data in Flutter widgets",
+                                "Interview Questions"
                             ]
+
                         },
                         {
                             name: "API Integration in ESP32", stages: [
                                 "Making HTTP requests from ESP32",
                                 "Handling API responses",
                                 "Sending data to a server",
-                                "Integrating ESP32 with web services"
+                                "Integrating ESP32 with web services",
+                                "Interview Questions"
                             ]
                         }
                     ]}
