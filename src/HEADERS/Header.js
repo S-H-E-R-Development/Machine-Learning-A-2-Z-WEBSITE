@@ -39,7 +39,7 @@ const Navbar = () => {
 
             <ul className="nav-links">
                 <li>
-                    <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML"><img src="logo192.png" alt="icon" className="circular-icon" />
+                    <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML"><img src="logo192.png" alt="MLa2z" className="circular-icon" />
                     </Link>
                 </li>
                 {navBarButtonData.map((value, index) => (
