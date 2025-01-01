@@ -11,7 +11,13 @@ nav {
     /* height: 3.5rem; */
 }
 
-
+.circular-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;  /* Makes it circular */
+    object-fit: cover;  /* Ensures the image maintains its aspect ratio */
+  }
+  
 nav ul {
     width: 100%;
     padding: 0px;

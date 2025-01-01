@@ -1,54 +1,70 @@
-/* BottomNavBar.css */
-
-/* Base styles for footer */
+/* Footer Styles */
 .footer {
-  margin: 2rem;
-  padding: 2rem 1rem;
-  /* Reduced padding for smaller screens */
-  border-radius: 10px;
-  border: none;
-  background-color: rgba(245, 245, 245, 0.805);
-  font-size: 1rem;
+  background-color: #282c34;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  /* Stack elements vertically on small screens */
-  align-items: center;
-  /* Center items horizontally */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }
 
-.footer>div {
-  margin-bottom: 1rem;
-  /* Space between sections */
+.footer-col {
+  flex: 1 1 30%;
+  margin: 10px 0;
 }
 
-/* Responsive design for larger screens */
-@media (min-width: 768px) {
-  .footer {
-    padding: 5rem 3rem;
-    /* Increase padding for larger screens */
-  }
-
-  .footer {
-    flex-direction: row;
-    /* Align items horizontally */
-    justify-content: space-between;
-    /* Space out sections */
-  }
-
-  .footer>div {
-    margin-bottom: 0;
-    /* Remove bottom margin on larger screens */
-    flex: 1;
-    /* Make each section take equal space */
-    padding: 0 1rem;
-    /* Add horizontal padding for spacing */
-  }
+.footer h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
-/* Responsive design for extra-large screens */
-@media (min-width: 1200px) {
-  .footer {
-    padding: 10rem 5rem;
-    /* Restore original padding for very large screens */
-  }
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin: 1px 0;
+}
+
+.footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+  color: #00aced;
+}
+
+.social-link-div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-links a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #00aced;
+}
+
+.copyright {
+  margin-top: 4px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 4px;
 }

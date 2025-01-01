@@ -25,4 +25,15 @@ const HeaderESP32 = () => {
     );
 };
 
-export { HeaderMLA2Z, HeaderESP32 };
+const HeaderDeepAI = () => {
+    return (
+        <header className="header">
+            <h1 className="header-title">DeepAI Research</h1>
+            <p className="header-description">
+                An autonomous body of Society of Humanity Education and Research to dive deeper into AI fundamentals and exploring the generation of mathematical equations from trained models.
+            </p>
+        </header>
+    );
+};
+
+export { HeaderMLA2Z, HeaderESP32, HeaderDeepAI };

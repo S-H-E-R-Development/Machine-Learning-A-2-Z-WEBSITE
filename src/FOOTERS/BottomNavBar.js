@@ -1,63 +1,21 @@
 import React from "react";
 import './BottomNavBar.css';
+import { Link } from "react-router-dom";
 
-import { socialMediaLink } from "../GENERAL_COMPONENTS/LOGIN-SOCIAL-MEDIA-BUTTON/button";
-
-
-const PartnersDes = [
-
-  "Society of Humanity Education and Research", "Consultancy and Personal Development"
-
-]
-
-const Contact = [
-
-  "help@cpdevelopments.com",
-
-  "24/7 availability."
-]
-const Partners = () => {
+export default function BottomBar() {
   return (
-    <div>
-      <h2>Partners</h2>
-      <h4>{PartnersDes[0]}</h4>
-      <h4>{PartnersDes[1]}</h4>
-
-    </div>
-  );
-};
-
-const ContactUsLink = () => {
-  return (
-    <div>
-      <h2>Contact Us</h2>
-      {socialMediaLink('f')}
-      {socialMediaLink('i')}
-      {socialMediaLink('li')}
-    </div>
-  );
-};
-
-const ContactUsMail = () => {
-  return (
-    <div className="">
-      <h2>Contact Us</h2>
-      <h4>{Contact[0]}</h4>
-      <h4>{Contact[1]}</h4>
-    </div>
-  );
-};
-
-const BottomNavBar = () => {
-  return (
-    <>
-      <div className="footer">
-        <Partners />
-        <ContactUsLink />
-        <ContactUsMail />
+    <footer>
+      <div className="copyright">
+        <h3>
+        An Open Source Project: 
+          <Link to="https://github.com/S-H-E-R-Development/Machine-Learning-A-2-Z-WEBSITE" target="_blank">
+          GitHub-React
+          </Link>
+          <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML" target="_blank">
+          GitHub-ML
+          </Link>
+        </h3>
       </div>
-    </>
+    </footer>
   );
-};
-
-export default BottomNavBar;
+}
