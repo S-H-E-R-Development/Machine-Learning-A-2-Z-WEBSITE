@@ -4,12 +4,13 @@ import './Header.css'; // Ensure you have created this CSS file
 
 const navBarButtonData = [
     { "linkTo": "/", "label": "Home" },
-    { "linkTo": "/courses", "label": "Courses" },
+    // { "linkTo": "/courses", "label": "Courses" },
     { "linkTo": "/ESP32", "label": "ESP32" },
-    { "linkTo": "/coaches", "label": "Coaches" },
-    { "linkTo": "/community", "label": "Community" },
-    { "linkTo": "/auth", "label": "Register/login" },
-    { "linkTo": "/auth/dashboard", "label": "Dashboard" },
+    // { "linkTo": "/coaches", "label": "Coaches" },
+    // { "linkTo": "/community", "label": "Community" },
+    { "linkTo": "/contributors", "label": "Contributors" },
+    // { "linkTo": "/auth", "label": "Register/login" },
+    // { "linkTo": "/auth/dashboard", "label": "Dashboard" },
 ];
 
 const Navbar = () => {
@@ -38,7 +39,8 @@ const Navbar = () => {
 
             <ul className="nav-links">
                 <li>
-                    <Link to="/"><img className="logo" src='/assets/OpenScienceLogo2.png' alt="Xsupport" /></Link>
+                    <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML"><img src="logo192.png" alt="icon" className="circular-icon" />
+                    </Link>
                 </li>
                 {navBarButtonData.map((value, index) => (
                     <li key={index}>

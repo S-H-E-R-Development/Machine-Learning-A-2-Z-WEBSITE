@@ -1,7 +1,7 @@
 /* Header.css */
 
 .header {
-    background: linear-gradient(to right, #4a90e2, #50e3c2);
+    background: linear-gradient(to right, #e8ecef, #fbfbfb);
     /* Gradient background for a modern look */
     color: white;
     /* Text color */
@@ -26,7 +26,7 @@
 }
 
 .header-description {
-    font-size: 1.2rem;
+    font-size: small;
     /* Slightly larger font size for better readability */
     line-height: 1.5;
     /* Line height for better readability */

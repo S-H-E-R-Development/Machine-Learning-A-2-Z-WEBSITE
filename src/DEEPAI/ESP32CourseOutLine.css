@@ -1,0 +1,80 @@
+.course-outline {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    /* Light grey background for better contrast */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header-title {
+    font-size: 2rem;
+    color: #343a40;
+    /* Dark grey for text */
+    margin-bottom: 0.5rem;
+}
+
+.header-description {
+    font-size: 1.125rem;
+    color: #6c757d;
+    /* Lighter grey for description text */
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.module {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+    /* White background for modules */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for a card effect */
+}
+
+.module-title {
+    font-size: 1.75rem;
+    color: #343a40;
+    /* Dark grey for titles */
+    margin-bottom: 1rem;
+}
+
+.module-repo-link {
+    display: block;
+    margin-bottom: 1.5rem;
+    color: #007bff;
+    /* Blue for repository link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.module-repo-link:hover {
+    text-decoration: underline;
+}
+
+.topic {
+    margin: 1.5rem 0;
+}
+
+.topic-name {
+    font-size: 1.5rem;
+    color: #495057;
+    /* Darker grey for topic names */
+    margin-bottom: 0.5rem;
+}
+
+.topic-stages {
+    list-style: disc;
+    margin-left: 1.5rem;
+}
+
+.topic-stage {
+    font-size: 1.125rem;
+    color: #6c757d;
+    /* Lighter grey for stages */
+    margin-bottom: 0.5rem;
+}

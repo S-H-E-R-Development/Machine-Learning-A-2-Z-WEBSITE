@@ -481,8 +481,60 @@ const MLA2ZCourseOutLine = () => {
                         }
                     ]}
                 />
+                <Project
+                    title="Project 5: Recommendation System"
+                    repoLink="/MLA2ZCourse/Projects/Project5/"
+                    topics={[
+                        {
+                            name: "Recommendation System",
+                            stages: ["Understanding Basics",
+                                "Intermediate Projects",
+                                "Advanced Projects",
+                                "Scalability & Limitations"]
+                        }
+                    ]}
+                />
+                <Project
+                    title="Project 6: Ranking System"
+                    repoLink="/MLA2ZCourse/Projects/Project6/"
+                    topics={[
+                        {
+                            name: "Ranking System",
+                            stages: ["Understanding Basics",
+                                "Intermediate Projects",
+                                "Advanced Projects",
+                                "Scalability & Limitations"]
+                        }
+                    ]}
+                />
+                <Project
+                    title="Project 7: Personalization Algorithms"
+                    repoLink="/MLA2ZCourse/Projects/Project7/"
+                    topics={[
+                        {
+                            name: "Personalization Algorithms",
+                            stages: ["Understanding Basics",
+                                "Intermediate Projects",
+                                "Advanced Projects",
+                                "Scalability & Limitations"]
+                        }
+                    ]}
+                />
+                <Project
+                    title="Project 7: MLOPs"
+                    repoLink="/MLA2ZCourse/Projects/Project8/"
+                    topics={[
+                        {
+                            name: "ML OPs",
+                            stages: ["Azure",
+                                "GCP",
+                                "Awz",
+                                "Scalability & Limitations"]
+                        }
+                    ]}
+                />
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
