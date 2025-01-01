@@ -6,11 +6,15 @@ export default function BottomBar() {
   return (
     <footer>
       <div className="copyright">
-        <h2>
-          <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML" target="_blank">
-          An Open Source Project: GitHub
+        <h3>
+        An Open Source Project: 
+          <Link to="https://github.com/S-H-E-R-Development/Machine-Learning-A-2-Z-WEBSITE" target="_blank">
+          GitHub-React
           </Link>
-        </h2>
+          <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML" target="_blank">
+          GitHub-ML
+          </Link>
+        </h3>
       </div>
     </footer>
   );
