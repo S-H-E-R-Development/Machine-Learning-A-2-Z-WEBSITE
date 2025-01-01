@@ -12,7 +12,7 @@ const esp32Contributors = [
 const reactContributors = [
   { name: 'Alaka Singh', linkedIn: 'https://www.linkedin.com/in/alaka-singh-9776b9275/', contributionIn: 'MLA2Z website' }
 ];
-
+ 
 export default function Contributors() {
   return (
     <div >
