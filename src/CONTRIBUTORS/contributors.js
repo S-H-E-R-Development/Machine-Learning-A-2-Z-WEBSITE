@@ -3,14 +3,14 @@ import ContributorTable from './contributorTable';
 import './contributors.css'
 
 const mlContributors = [
-  { name: 'Rajkumar Verma', linkedIn: 'https://www.linkedin.com/in/rajkumar-verma-353966222/', contributionIn: 'Numpy | Pandas' }
+  { name: 'Rajkumar Verma', linkedIn: 'https://www.linkedin.com/in/rajkumar-verma-353966222/', contributionIn: 'ML Intro S0-S4 | Numpy S0-S2' }
 
 ];
 const esp32Contributors = [
   
 ];
 const reactContributors = [
-  { name: 'Alaka Singh', linkedIn: 'https://www.linkedin.com/in/alaka-singh-9776b9275/', contributionIn: 'MLA2Z website' }
+  { name: 'Alaka Singh', linkedIn: 'https://www.linkedin.com/in/alaka-singh-9776b9275/', contributionIn: 'UI/UX + React' }
 ];
  
 export default function Contributors() {

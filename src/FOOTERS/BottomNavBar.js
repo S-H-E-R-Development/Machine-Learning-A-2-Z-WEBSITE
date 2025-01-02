@@ -7,22 +7,13 @@ export default function BottomBar() {
     <footer>
       <div className="copyright">
         <h3>
-          An Open Source Project:
-          <Link
-            to="https://github.com/S-H-E-R-Development/Machine-Learning-A-2-Z-WEBSITE"
-            target="_blank"
-            style={{ textDecoration: "underline" }}
-          >
-            &nbsp; GitHub-React &nbsp;
+        An Open Source Project: 
+          <Link to="https://github.com/S-H-E-R-Development/Machine-Learning-A-2-Z-WEBSITE" target="_blank">
+          GitHub-React
           </Link>
-          <Link
-            to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML"
-            target="_blank"
-            style={{ textDecoration: "underline" }}
-          >
-            GitHub-ML
+          <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML" target="_blank">
+          GitHub-ML
           </Link>
-
         </h3>
       </div>
     </footer>
