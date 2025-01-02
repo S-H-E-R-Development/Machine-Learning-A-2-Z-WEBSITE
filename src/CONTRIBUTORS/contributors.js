@@ -12,10 +12,10 @@ const esp32Contributors = [
 const reactContributors = [
   { name: 'Alaka Singh', linkedIn: 'https://www.linkedin.com/in/alaka-singh-9776b9275/', contributionIn: 'UI/UX + React' }
 ];
-
+ 
 export default function Contributors() {
   return (
-    <div >
+    <div className='content' >
       
       <h1>Top 10 Contributors in Machine Learning</h1>
       <ContributorTable contributors={mlContributors} />
