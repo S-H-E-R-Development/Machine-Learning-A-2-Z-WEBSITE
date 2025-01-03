@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function BottomBar() {
   return (
-    <footer className="footer">
+    <footer className="footer">  
       <div className="copyright">
         <h3 className="footer-text">
          An Open Source Project:
