@@ -10,7 +10,10 @@ const esp32Contributors = [
   
 ];
 const reactContributors = [
-  { name: 'Alaka Singh', linkedIn: 'https://www.linkedin.com/in/alaka-singh-9776b9275/', contributionIn: 'UI/UX + React' }
+  { name: 'Alaka Singh', linkedIn: 'https://www.linkedin.com/in/alaka-singh-9776b9275/', contributionIn: 'UI/UX + React + Website Developer'},
+  { name: 'Nimish Bhardwaj', linkedIn: 'https://www.linkedin.com/in/nimishbhardwaj93/', contributionIn: 'Overlapping issue + Shadow to navbar'},
+  { name: 'Zhen Liu', linkedIn: 'https://www.linkedin.com/in/zh3nl', contributionIn: 'Modification in manifest.json'},
+
 ];
  
 export default function Contributors() {
