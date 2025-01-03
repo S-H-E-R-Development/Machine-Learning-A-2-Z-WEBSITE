@@ -1,74 +1,76 @@
 /* Footer Styles */
-a {
-  text-decoration: underline;
-}
-
 .footer {
   background-color: #282c34;
   color: #ffffff;
-  padding: 20px;
+  height: 100px; /* Set height to 100px */
+  padding: 2px 0; /* Set padding to 2px from top and bottom */
   text-align: center;
+  position: relative ; /* Make the footer fixed */
+  bottom: 0; /* Position it at the bottom */
+  width: 100%; /* Ensure it takes full width */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer .container {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 20px;
-}
-
-.footer-col {
-  flex: 1 1 30%;
-  margin: 10px 0;
-}
-
-.footer h4 {
-  font-size: 16px;
-  margin-bottom: 10px;
+  gap: 10px;
 }
 
 .footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.footer ul li {
-  margin: 1px 0;
-}
-
-.footer ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.footer ul li a:hover {
-  color: #00aced;
-}
-
-.social-link-div {
   display: flex;
-  justify-content: center;
   gap: 10px;
 }
 
-.social-links a {
-  color: #ffffff;
-  font-size: 18px;
-  text-decoration: none;
-  transition: color 0.3s;
+.footer ul li {
+  margin: 0;
 }
 
-.social-links a:hover {
-  color: #00aced;
+.footer ul li a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00aced;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer ul li a:hover {
+  background-color: #007bb5;
+  transform: scale(1.05);
+}
+
+.footer-text a {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 7px;
+  background-color: #00aced;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer-text a:hover {
+  background-color: #007bb5;
+  transform: scale(1.05);
 }
 
 .copyright {
-  margin-top: 4px;
-  font-size: 14px;
+  margin-top: 1px;
+  font-size: 12px;
   border-top: 1px solid #444;
-  padding-top: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 100%;
+  margin: 0 auto;
 }

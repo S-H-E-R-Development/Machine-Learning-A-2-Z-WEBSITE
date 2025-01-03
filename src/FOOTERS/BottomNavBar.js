@@ -4,16 +4,18 @@ import { Link } from "react-router-dom";
 
 export default function BottomBar() {
   return (
-    <footer>
+    <footer className="footer">  
       <div className="copyright">
-        <h3>
-        An Open Source Project: 
-          <Link to="https://github.com/S-H-E-R-Development/Machine-Learning-A-2-Z-WEBSITE" target="_blank">
-          GitHub-React
+        <h3 className="footer-text">
+         An Open Source Project:
+          <Link
+           to="https://github.com/S-H-E-R-Development/Machine-Learning-A-2-Z-WEBSITE" target="_blank" >
+         &nbsp;GitHub-React &nbsp;
           </Link>
-          <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML" target="_blank">
+          <Link 
+           to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML" target="_blank">
           GitHub-ML
-          </Link>
+          </Link> 
         </h3>
       </div>
     </footer>
