@@ -14,7 +14,7 @@ const reactContributors = [
 ];
 
 export default function Contributors() {
-  return (
+  return ( 
     <div > 
       
       <h1>Top 10 Contributors in Machine Learning</h1>
