@@ -13,9 +13,18 @@
     /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Subtle shadow for depth */
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin-block: 100px 20px;
     /* Space below the header */
+}
+
+.section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1120px;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .header-title {
@@ -26,10 +35,7 @@
 }
 
 .header-description {
-    font-size: small;
-    /* Slightly larger font size for better readability */
-    line-height: 1.5;
-    /* Line height for better readability */
     margin: 0;
-    /* Remove default margin */
+    line-height: 1.5;
+    font-size: 1.2rem;
 }

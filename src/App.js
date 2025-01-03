@@ -3,11 +3,6 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './HEADERS/Header';
 import BottomNavBar from './FOOTERS/BottomNavBar';
-
-
-
-import Hline from './GENERAL_COMPONENTS/lines';
-
 import MLA2ZCourseOutLine from './MLA2ZCOURSE/MLA2ZCourseOutLine';
 import ESP32CourseOutLine from './ESP32COURSE/ESP32CourseOutLine';
 
@@ -48,7 +43,7 @@ const AuthComponents = () => <MLA2ZCourseOutLine />;
 const DashboardComponents = () => <MLA2ZCourseOutLine />;
 
 // contributers
-const contributorsComponents =()=><Contributors/>
+const contributorsComponents = () => <Contributors />
 //  Deep AI research
 
 // module 0
@@ -98,11 +93,10 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      {/* <Hline color={'purple'} /> */}
       <Routes>
         <Route path="/" exact element={HomeComponents()} />
         <Route path="/courses" exact element={CoursesComponents()} />
-        <Route path='/contributors' exact element = {contributorsComponents()}/>
+        <Route path='/contributors' exact element={contributorsComponents()} />
         <Route path="/ESP32" exact element={ESP32Components()} />
         <Route path="/DeepAI" exact element={DeepAIComponents()} />
         <Route path="/coaches" element={CoachesComponents()} />
@@ -148,13 +142,13 @@ function App() {
         <Route path="/MLA2ZCourse/Modules/Module2/Topic1/Stage1" exact element={MLA2ZModule_2_Topic_1_Stage_1()} />
         <Route path="/MLA2ZCourse/Modules/Module2/Topic1/Stage2" exact element={MLA2ZModule_2_Topic_1_Stage_2()} />
       </Routes>
-      <p style={{ height: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center' }}>
-  Open Source Project, Contribute Today...
-</p>
+      <p className="flex text-center justify-center items-center mb-10">
+        Open Source Project, Contribute Today...
+      </p>
 
       <BottomNavBar />
 
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
 
