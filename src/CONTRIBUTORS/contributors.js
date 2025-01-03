@@ -16,6 +16,10 @@ const reactContributors = [
 
 ];
  
+const uiContributors = [];
+const documentationContributors = [];
+const marketingContributors = [];
+const seoContributors = [];
 export default function Contributors() {
   return (
     <div className='content' >
@@ -26,6 +30,14 @@ export default function Contributors() {
       <ContributorTable contributors={esp32Contributors} />
       <h1>Top 10 Contributors in React</h1>
       <ContributorTable contributors={reactContributors} />
+      <h1>Top 10 Contributors in SEO (Search Engine Optimization)</h1>
+      <ContributorTable contributors={seoContributors} />
+      <h1>Top 10 Contributors in Figma/Canva Design(UI)</h1>
+      <ContributorTable contributors={uiContributors} />
+      <h1>Top 10 Contributors in Documentation</h1>
+      <ContributorTable contributors={documentationContributors} />
+      <h1>Top 10 Contributors in Marketing</h1>
+      <ContributorTable contributors={marketingContributors} />
     </div>
   );
 }
