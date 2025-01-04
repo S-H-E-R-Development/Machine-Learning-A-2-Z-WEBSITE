@@ -33,7 +33,7 @@ const Navbar = () => {
                 {navBarButtonData.map((value, index) => (
                     <li key={index}>
                         <Link to={value.linkTo} onClick={hideSidebar}>{value.label}</Link>
-                    </li>
+                    </li>     
                 ))}
             </ul>
 
