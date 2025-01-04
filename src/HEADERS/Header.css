@@ -85,7 +85,7 @@ nav li:last-child {
     background-color: rgba(255, 255, 255, 0.77);
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    list-style: none;
+    list-style: none;        
     display: none;
     flex-direction: column;
     align-items: flex-start;
