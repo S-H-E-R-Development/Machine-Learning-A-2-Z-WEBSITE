@@ -1,9 +1,13 @@
 .module {
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ddd;
   border-radius: 5px;
+  border: 1px solid #ddd;
   background-color: #f9f9f9;
+
+  @media (max-width: 330px) {
+    margin: 10px;
+  }
 }
 
 .module-title {
@@ -71,6 +75,7 @@
 
 .stage-section {
   flex: 2;
+  word-break: break-all;
 }
 
 @media (max-width: 768px) {

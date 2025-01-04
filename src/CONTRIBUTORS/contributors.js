@@ -7,36 +7,35 @@ const mlContributors = [
 
 ];
 const esp32Contributors = [
-  
-];
-const reactContributors = [
-  { name: 'Alaka Singh', linkedIn: 'https://www.linkedin.com/in/alaka-singh-9776b9275/', contributionIn: 'UI/UX + React + Website Developer'},
-  { name: 'Nimish Bhardwaj', linkedIn: 'https://www.linkedin.com/in/nimishbhardwaj93/', contributionIn: 'Overlapping issue + Shadow to navbar'},
-  { name: 'Zhen Liu', linkedIn: 'https://www.linkedin.com/in/zh3nl', contributionIn: 'Modification in manifest.json'},
 
 ];
- 
+const reactContributors = [
+  { name: 'Alaka Singh', linkedIn: 'https://www.linkedin.com/in/alaka-singh-9776b9275/', contributionIn: 'UI/UX + React + Website Developer' },
+  { name: 'Nimish Bhardwaj', linkedIn: 'https://www.linkedin.com/in/nimishbhardwaj93/', contributionIn: 'Overlapping issue + Shadow to navbar' },
+  { name: 'Zhen Liu', linkedIn: 'https://www.linkedin.com/in/zh3nl', contributionIn: 'Modification in manifest.json' },
+
+];
+
 const uiContributors = [];
 const documentationContributors = [];
 const marketingContributors = [];
 const seoContributors = [];
 export default function Contributors() {
   return (
-    <div className='content' >
-      
-      <h1>Top 10 Contributors in Machine Learning</h1>
+    <div className='content w-full overflow-x-hidden' >
+      <h1 className="text-2xl font-bold">Top 10 Contributors in Machine Learning</h1>
       <ContributorTable contributors={mlContributors} />
-      <h1>Top 10 Contributors in ESP32</h1>
-      <ContributorTable contributors={esp32Contributors} />
-      <h1>Top 10 Contributors in React</h1>
+      <h1 className="text-2xl font-bold">Top 10 Contributors in React</h1>
       <ContributorTable contributors={reactContributors} />
-      <h1>Top 10 Contributors in SEO (Search Engine Optimization)</h1>
+      <h1 className="text-2xl font-bold">Top 10 Contributors in ESP32</h1>
+      <ContributorTable contributors={esp32Contributors} />
+      <h1 className="text-2xl font-bold">Top 10 Contributors in SEO (Search Engine Optimization)</h1>
       <ContributorTable contributors={seoContributors} />
-      <h1>Top 10 Contributors in Figma/Canva Design(UI)</h1>
+      <h1 className="text-2xl font-bold">Top 10 Contributors in Figma/Canva Design(UI)</h1>
       <ContributorTable contributors={uiContributors} />
-      <h1>Top 10 Contributors in Documentation</h1>
+      <h1 className="text-2xl font-bold">Top 10 Contributors in Documentation</h1>
       <ContributorTable contributors={documentationContributors} />
-      <h1>Top 10 Contributors in Marketing</h1>
+      <h1 className="text-2xl font-bold">Top 10 Contributors in Marketing</h1>
       <ContributorTable contributors={marketingContributors} />
     </div>
   );

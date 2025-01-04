@@ -4,7 +4,7 @@ import './Project.css';  // Import the CSS file
 const Project = ({ title, repoLink, topics }) => {
     return (
         <div className="Project">
-            <a href={repoLink} className="Project-title">{title}</a>
+            <a href={repoLink} className="Project-title max-md:!text-xl">{title}</a>
             <div className='border'>
                 {topics.map((topic, index) => (
                     <div key={index} className="flex max-md:flex-col">
