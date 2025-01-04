@@ -7,7 +7,8 @@
   text-align: center;
   position: fixed ; /* Make the footer fixed */
   top: 70px; /* Position it at the bottom */
-  width: 100%; /* Ensure it takes full width */
+  width: 100%; /* Ensure it takes full width */       
+
   display: flex;
   align-items: center;
   justify-content: center;
