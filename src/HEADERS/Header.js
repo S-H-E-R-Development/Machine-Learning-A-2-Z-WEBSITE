@@ -41,7 +41,7 @@ const Navbar = () => {
                 <li>
                     <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML">                   
                     <img src={require("./logo192.png")} alt="MLa2z" className="circular-icon" />
-                    </Link> 
+                    </Link>
                 </li>
                 {navBarButtonData.map((value, index) => (
                     <li key={index}>
