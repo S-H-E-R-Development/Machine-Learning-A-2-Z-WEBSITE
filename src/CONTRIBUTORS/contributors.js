@@ -13,7 +13,7 @@ const reactContributors = [
   { name: 'Alaka Singh', linkedIn: 'https://www.linkedin.com/in/alaka-singh-9776b9275/', contributionIn: 'UI/UX + React + Website Developer'},
   { name: 'Nimish Bhardwaj', linkedIn: 'https://www.linkedin.com/in/nimishbhardwaj93/', contributionIn: 'Overlapping issue + Shadow to navbar js/css'},
   { name: 'Zhen Liu', linkedIn: 'https://www.linkedin.com/in/zh3nl', contributionIn: 'Modification in manifest.json'},
-  { name: 'Harsh Nagar', linkedIn: 'https://www.linkedin.com/in/harsh-nagar-311904256', contributionIn: 'Modification in BottomNavbar js/css'},
+  { name: 'Harsh Nagar', linkedIn: 'https://www.linkedin.com/in/harsh-nagar-311904256', contributionIn: 'Modification in BottomNavbar + HeaderNavBar js/css'},
 
 ];
  
