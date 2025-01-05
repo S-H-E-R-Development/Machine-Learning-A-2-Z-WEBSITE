@@ -20,19 +20,6 @@ export default function Contributors() {
     <div className='content w-full overflow-x-hidden' >
       <h1 className="text-2xl font-bold">Top 10 Contributors in Machine Learning</h1>
       <ContributorTable contributors={mlContributors} />
-// <<<<<<< responsive-UI
-//       <h1 className="text-2xl font-bold">Top 10 Contributors in React</h1>
-//       <ContributorTable contributors={reactContributors} />
-//       <h1 className="text-2xl font-bold">Top 10 Contributors in ESP32</h1>
-//       <ContributorTable contributors={esp32Contributors} />
-//       <h1 className="text-2xl font-bold">Top 10 Contributors in SEO (Search Engine Optimization)</h1>
-// =======
-//       <h1>Top 10 Contributors in React</h1>
-//       <ContributorTable contributors={reactContributors} />
-//       <h1>Top 10 Contributors in ESP32</h1>
-//       <ContributorTable contributors={esp32Contributors} />
-//       <h1>Top 10 Contributors in SEO (Search Engine Optimization)</h1>
-// >>>>>>> main
       <ContributorTable contributors={seoContributors} />
       <h1 className="text-2xl font-bold">Top 10 Contributors in Figma/Canva Design(UI)</h1>
       <ContributorTable contributors={uiContributors} />
