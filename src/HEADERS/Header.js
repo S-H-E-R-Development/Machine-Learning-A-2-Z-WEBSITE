@@ -40,7 +40,6 @@ const Navbar = () => {
             <ul className="nav-links">
                 <li>
                     <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML">
-                    
                     <img src = {require("./logo192.png")} alt="MLa2z" className="circular-icon" />
                     </Link>
                 </li>
@@ -53,7 +52,6 @@ const Navbar = () => {
                     <Link className='menu' to=""><svg color='white' xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" /></svg></Link>
                 </li>
             </ul>
-
         </nav>
     );
 };
