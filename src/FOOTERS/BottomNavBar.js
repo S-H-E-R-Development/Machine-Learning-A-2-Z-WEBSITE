@@ -13,7 +13,7 @@ export default function BottomBar() {
           </Link>
           <Link to="https://github.com/Machine-Learning-A-2-Z/00---Basics-of-ML" target="_blank">
           GitHub-ML
-          </Link> 
+          </Link>  
         </h3>
       </div>
     </footer>
