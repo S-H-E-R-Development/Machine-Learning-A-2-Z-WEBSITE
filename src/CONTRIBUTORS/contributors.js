@@ -14,6 +14,7 @@ const reactContributors = [
   { name: 'Nimish Bhardwaj', linkedIn: 'https://www.linkedin.com/in/nimishbhardwaj93/', contributionIn: 'Overlapping issue + Shadow to navbar js/css'},
   { name: 'Zhen Liu', linkedIn: 'https://www.linkedin.com/in/zh3nl', contributionIn: 'Modification in manifest.json'},
   { name: 'Harsh Nagar', linkedIn: 'https://www.linkedin.com/in/harsh-nagar-311904256', contributionIn: 'Modification in BottomNavbar + HeaderNavBar js/css'},
+  { name: 'Emmanuella A. Oghenekaro', linkedIn: 'https://www.linkedin.com/in/emmanuella-oghenekaro/', contributionIn: 'Fixed padding + Added S.N. in contributors table + (Uses DSA Skill)'},
 
 ];
  
