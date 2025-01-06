@@ -13,13 +13,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-.course-content,
-.projects {
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
 .module,
 .project {
   margin-bottom: 20px;

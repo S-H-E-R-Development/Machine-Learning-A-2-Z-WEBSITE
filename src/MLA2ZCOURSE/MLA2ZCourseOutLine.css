@@ -18,6 +18,10 @@ h2 {
   padding: 20px;
   margin: 0 auto;
   max-width: 1200px;
+
+  @media (max-width: 430px) {
+    padding: 0;
+  }
 }
 
 .module,

@@ -4,6 +4,10 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+
+  @media (max-width: 330px) {
+    margin: 10px;
+  }
 }
 
 .Project-title {
@@ -71,4 +75,5 @@
 
 .level-section {
   flex: 2;
+  word-break: break-all;
 }
