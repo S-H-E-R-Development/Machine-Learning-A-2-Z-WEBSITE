@@ -22,9 +22,8 @@ const documentationContributors = [];
 const marketingContributors = [];
 const seoContributors = [];
 export default function Contributors() {
-  return (
-    <div className='content' >
-    
+
+      
       <h1>Top 10 Contributors in Machine Learning</h1>
       <ContributorTable contributors={mlContributors} />
       <h1>Top 10 Contributors in React</h1>
