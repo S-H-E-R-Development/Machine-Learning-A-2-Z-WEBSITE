@@ -2,13 +2,18 @@
 nav {
     margin: 0;
     padding: 0;
-    background-color: rgb(249, 249, 253);
+    background-color: rgb(255, 255, 255);
     color: black;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1000;
+    height: 65px;
     /* height: 3.5rem; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.content{
+    margin-top: 5.5rem;
 }
 
 .circular-icon {
@@ -64,9 +69,6 @@ nav li:first-child {
 }
 
 nav li:last-child {
-
-
-
     fill: #ffffff;
 }
 
