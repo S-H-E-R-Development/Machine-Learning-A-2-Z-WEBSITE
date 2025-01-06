@@ -15,7 +15,7 @@ const ContributorTable = ({ contributors }) => {
 				{contributors.map((contributor, index) => (
 					<tr key={index}>
 						<td>{index + 1}</td>
-						<td>{contributor.name}</td>
+						<td>{contributor.name}</td> 
 						<td>
 							<a
 								href={contributor.linkedIn}
