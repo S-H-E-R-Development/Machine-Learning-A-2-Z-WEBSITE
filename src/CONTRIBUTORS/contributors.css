@@ -1,4 +1,6 @@
-
+.contribution_section {
+  padding-top: 7rem;
+}
 .contributors-table {
     width: 100%;
     border-collapse: collapse;
