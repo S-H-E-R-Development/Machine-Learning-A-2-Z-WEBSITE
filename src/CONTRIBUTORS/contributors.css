@@ -1,5 +1,6 @@
 .contribution_section {
   padding-top: 7rem;
+  padding-inline: 1.5rem;
 }
 .contributors-table {
     width: 100%;
@@ -9,7 +10,7 @@
   
   .contributors-table th, .contributors-table td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
     text-align: left;
   }
   
