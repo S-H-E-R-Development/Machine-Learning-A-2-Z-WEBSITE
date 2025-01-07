@@ -36,6 +36,15 @@ h2 {
   font-size: 1.2em;
 }
 
+section {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0000001a;
+  margin: 0 auto 20px;
+  max-width: 1200px;
+  padding: 20px;
+}
+
 .module-title:hover,
 .project-title:hover {
   text-decoration: underline;
