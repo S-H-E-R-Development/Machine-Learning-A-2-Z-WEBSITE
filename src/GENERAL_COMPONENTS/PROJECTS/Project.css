@@ -1,114 +1,79 @@
 .Project {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+  @media (max-width: 330px) {
+    margin: 10px;
+  }
 }
 
 .Project-title {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-    margin-bottom: 10px;
-    display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
 }
 
 .Project-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
 }
 
 .Project-table th,
 .Project-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
 .Project-table th {
-    background-color: #f2f2f2;
-    font-weight: bold;
+  background-color: #f2f2f2;
+  font-weight: bold;
 }
 
 .topic-item {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 .topic-label,
 .stage-label {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .topic-link,
 .stage-link {
-    margin-left: 8px;
-    text-decoration: none;
-    color: #007bff;
+  margin-left: 8px;
+  text-decoration: none;
+  color: #007bff;
 }
 
 .topic-link:hover,
 .stage-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .stages-list {
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 0;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
 }
 
 .stage-item {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-@media (max-width: 768px) {
+.topic-section {
+  flex: 1;
+}
 
-    .Project-table,
-    .Project-table thead,
-    .Project-table tbody,
-    .Project-table th,
-    .Project-table td,
-    .Project-table tr {
-        display: block;
-    }
-
-    .Project-table thead {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
-
-    .Project-table tr {
-        margin: 0 0 1rem 0;
-    }
-
-    .Project-table td {
-        border: none;
-        position: relative;
-        padding-left: 50%;
-        text-align: left;
-    }
-
-    .Project-table td::before {
-        position: absolute;
-        top: 0;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-        font-weight: bold;
-        content: attr(data-label);
-    }
-
-    .Project-table td:nth-of-type(1)::before {
-        content: "Topic";
-    }
-
-    .Project-table td:nth-of-type(2)::before {
-        content: "Stages";
-    }
+.level-section {
+  flex: 2;
+  word-break: break-all;
 }
