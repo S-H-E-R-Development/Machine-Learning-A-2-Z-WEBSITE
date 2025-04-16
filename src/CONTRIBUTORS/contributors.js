@@ -16,7 +16,7 @@ const reactContributors = [
   { name: 'Harsh Nagar', linkedIn: 'https://www.linkedin.com/in/harsh-nagar-311904256', contributionIn: 'Modification in BottomNavbar + HeaderNavBar js/css' },
   { name: 'Emmanuella A. Oghenekaro', linkedIn: 'https://www.linkedin.com/in/emmanuella-oghenekaro/', contributionIn: 'Fixed padding + Added S.N. in contributors table + (Uses DSA Skill)' },
   { name: 'Harshil Chaurasiya', linkedIn: 'https://www.linkedin.com/in/harshil-chaurasiya-684999298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', contributionIn: 'Responsiveness in Home | ESP32 | Contributors Pages' },
-
+  { name: 'Aarti Phadtare', linkedIn: 'https://www.linkedin.com/in/aarti-phadtare-2807', contributionIn: 'Contribution in menu button, UI/UX' },
 ];
 
 const uiContributors = [];
